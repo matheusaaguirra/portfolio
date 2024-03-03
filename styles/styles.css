@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: #060118;
+    padding: 3px 0 0 0;
+    
+    
+}
+
+
+.cabecalho{
+    padding: 1% 0 0 7% ;
+    
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 8%;
+}
+
+.cabecalho_menu_link{
+    font-family: inter,sans-serif;
+    font-size: 0.93rem;
+    font-weight: 300;
+    color: #22d4fd;
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 3% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 86px;
+}
+.apresentacao_conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.destaque{
+    color: #00FFF0;
+}
+
+.titulo{
+    font-family: inter,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+}
+
+.paragrafo{
+    padding:20px 0 0 0 ;
+    font-family: inter,sans-serif;
+    font-size: 1.06rem;
+    font-weight: 600;
+    
+}
+
+.botao{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 15px 0px;
+    
+}
+
+.botao_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    color: #00FFF0;
+    width: 47%;
+    text-align: center;
+    border-radius: 900px;
+    font-size: 1.25rem;
+    padding: 10.08px 0 ;
+    text-decoration: none;
+    font-family: inter,sans-serif;
+    font-weight: 700;
+}
+
+.imagem{
+    border-radius: 18%;
+    justify-content: flex-end;
+    padding: 17px;
+    width: 50%;
+}
+
+.imagem_2{
+    width: 370px;
+    border-radius: 18%;
+    justify-content: flex-end;
+    padding: 17px;
+}
+
+.titulo_2{
+    display: flex;
+    
+    font-family: inter,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+    
+}
+
+.paragrafo_1{
+    padding:20px 0 0 0 ;
+    font-family: inter,sans-serif;
+    font-size: 1.06rem;
+    font-weight: 600;
+
+}
+
+.botao_link:hover{
+    background-color: #272727;
+    border: 2px solid #00FFF0;
+}
+
+.rodape{
+    padding: 20px;
+    color:#000000;
+    background-color: #00FFF0;
+    text-align: center;
+    font-family: inter,sans-serif;
+    font-weight: 600;
+    font-size: 1.12rem;
+}
+
+@media (max-width: 1200px){
+
+    .cabecalho{
+        padding: 12%;
+    }
+
+    .cabecalho_menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    
+    .apresentacao_conteudo{
+        width: auto;
+    }
+
+    .botao{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+
+
+    .imagem{
+        width: 370px
+    }
+}
+
